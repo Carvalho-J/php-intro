@@ -23,7 +23,7 @@ if($idade >= 6 && $idade <= 12) //Idade maior ou igual a 6 e menor ou igual a 12
         for($i = 0; $i <= count($categorias); $i++)
             {
                 if($categorias[1] == 'infantil')
-                    echo "O competidor ", $nome. " pertence à categoria infantil";
+                    echo "O competidor ", $nome. " pertence à categoria infantil.";
             }
     }
 elseif($idade >= 13 && $idade <= 18) //Idade maior ou igual a 13 e menor ou igual a 18 entra na categoria adolescente.
@@ -39,7 +39,7 @@ else //Demais casos vão para adulto.
         for($i = 0; $i <= count($categorias); $i++)
             {
                 if($categorias[1] == 'adulto')
-                    echo "O competidor ", $nome. " pertence à categoria adulto";
+                    echo "O competidor ", $nome. " pertence à categoria adulto.";
             }
         
         echo 'adulto'; 
